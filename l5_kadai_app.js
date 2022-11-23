@@ -12,16 +12,11 @@
 //文字列演算子を使用します。
 
 for(let number=1; number<=50; number++){
-  console.log(number);
   if(number%10===0){
-    console.log("今"+number+"回ループしました");
-  }else{
-    console.log(number);
+    console.log("今"+number+"回ループしました。");
   }
   if(number%4===0){
     console.log("4で割れる数です。"+number);
-  }else{
-    console.log(number);
   }
   if(number===50){
     alert("50回カウントが終わりました。")
